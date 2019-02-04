@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    tools:context=".MainActivity">
+    tools:context=".loginActivity">
 
     <LinearLayout
 
@@ -24,7 +20,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_gravity="center_horizontal"
-            android:text="User Registration" />
+            android:text="User Login" />
 
         <EditText
             android:layout_margin="15dp"
@@ -44,20 +40,18 @@
 
         <Button
             android:layout_margin="15dp"
-            android:id="@+id/buttonRegister"
-            android:text="Register"
+            android:id="@+id/buttonSignin"
+            android:text="Signin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
             android:textAlignment="center"
-            android:text="Already registered? Sign in here"
-            android:id="@+id/textViewSignin"
+            android:text="Don't have an account? Sign up here"
+            android:id="@+id/textViewSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-
-
-
     </LinearLayout>
+
 
 </RelativeLayout>
