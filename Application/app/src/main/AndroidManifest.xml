@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".loginActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>
