@@ -8,6 +8,10 @@ public class UserInformation {
     public String age;
     public String mobileNumber;
 
+    public UserInformation(){
+
+    }
+
     public UserInformation(String name, String address, String gender, String age, String mobileNumber) {
         this.name = name;
         this.address = address;
@@ -16,7 +20,4 @@ public class UserInformation {
         this.mobileNumber = mobileNumber;
     }
 
-    public UserInformation(){
-
-    }
 }

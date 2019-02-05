@@ -34,13 +34,15 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        if (view == buttonProofOfRes){
+            //Request proof of residence
+            finish();
+            startActivity(new Intent(this, ProofOrResActivity.class));
+        }
+
         if (view == buttonAccountInformation){
             finish();
             startActivity(new Intent(this, ProfileActivity.class));
-        }
-
-        if (view == buttonProofOfRes){
-            //download proof of residence
         }
     }
 }
