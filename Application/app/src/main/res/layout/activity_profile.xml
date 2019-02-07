@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorDarkBackground"
     tools:context=".ProfileActivity">
 
     <LinearLayout
@@ -17,6 +18,7 @@
             android:layout_margin="15dp"
             android:hint="Enter your full names"
             android:id="@+id/editTextName"
+            android:textColor="@color/colorHint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -25,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:textColor="@color/colorHint"
             android:hint="Gender" />
 
         <EditText
@@ -32,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:textColor="@color/colorHint"
             android:hint="Age" />
 
         <EditText
@@ -39,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:textColor="@color/colorHint"
             android:hint="Enter Phone Number" />
 
         <EditText
@@ -46,12 +51,15 @@
             android:hint="Enter Address"
             android:id="@+id/editTextAddress"
             android:layout_width="match_parent"
+            android:textColor="@color/colorHint"
             android:layout_height="wrap_content" />
 
         <Button
             android:layout_margin="15dp"
             android:id="@+id/buttonAddUser"
             android:text="Save Information"
+            android:textColor="@color/colorFont"
+            android:textSize="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -67,6 +75,8 @@
                 android:layout_width="195dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorFont"
+                android:textSize="16dp"
                 android:text="Log out" />
 
             <Button
@@ -75,6 +85,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
+                android:textColor="@color/colorFont"
+                android:textSize="16dp"
                 android:text="Home" />
         </LinearLayout>
 

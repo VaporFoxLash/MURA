@@ -34,6 +34,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        if (view == buttonIncidents){
+            //Report an incident
+            finish();
+            startActivity(new Intent(this, IncidentActivity.class));
+        }
+
         if (view == buttonProofOfRes){
             //Request proof of residence
             finish();
@@ -43,6 +49,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         if (view == buttonAccountInformation){
             finish();
             startActivity(new Intent(this, ProfileActivity.class));
+        }
+
+        if (view == buttonEmergency){
+            finish();
+            startActivity(new Intent(this, EmergencyActivity.class));
         }
     }
 }

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MURA</string>
+    <string-array name="IncidentType">
+        <item>Porthole</item>
+        <item>Pipe burst</item>
+        <item>Electricity</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
 </resources>

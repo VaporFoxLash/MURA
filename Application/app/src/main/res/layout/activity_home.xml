@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorDarkBackground"
     tools:context=".HomeActivity">
 
 
@@ -12,14 +13,18 @@
         android:layout_height="186dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="318dp"
+            android:layout_height="160dp"
             android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
             android:text="Welcome to MURA"
+            android:textColor="@color/colorFont"
+            android:background="@color/colorButton"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 
@@ -34,6 +39,9 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:text="Transact"
+            android:textSize="18dp"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFont"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="109dp" />
 
@@ -42,6 +50,9 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:text="Incidents"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorFont"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="431dp" />
 
@@ -50,6 +61,9 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:text="Proof Of Residence"
+            android:textSize="18dp"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFont"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="351dp" />
 
@@ -58,6 +72,9 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:text="Account Information"
+            android:textSize="18dp"
+            android:textColor="@color/colorFont"
+            android:background="@color/colorPrimary"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="273dp" />
 
@@ -66,6 +83,9 @@
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:text="Emergency"
+            android:textSize="18dp"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFont"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="191dp" />
     </LinearLayout>

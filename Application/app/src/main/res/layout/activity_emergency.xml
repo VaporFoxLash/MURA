@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkBackground"
+    tools:context=".EmergencyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrim"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:text="Emergency"/>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonMun"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:text="Alert The Municipality"
+            android:textColor="@color/colorFont" />
+
+        <ImageView
+            android:id="@+id/imageCallMun"
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:background="@color/colorButton"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ambulance" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPolice"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:background="@color/colorButton"
+                android:text="Alert The Police"
+                android:textColor="@color/colorFont" />
+
+            <ImageView
+                android:id="@+id/imageAlertPolice"
+                android:layout_width="77dp"
+                android:layout_height="48dp"
+                android:background="@color/colorButton"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/police" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="190dp"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFont"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Home" />
+    </LinearLayout>
+
+</RelativeLayout>
